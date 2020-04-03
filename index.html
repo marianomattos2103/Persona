@@ -1,0 +1,39 @@
+<!-- apertura del documento --> 
+<!DOCTYPE html>
+<!-- Colocar el lenguaje --> 
+<html lang="en-US">
+<!-- Encabezado --> 
+<head>
+<!-- Titulo del navegador --> 
+<title>Mariano Mattos Web</title>
+<!-- Tipo de caracteres --> 
+<meta charset="UTF-8">
+<!-- Conectarse con la clase persona --> 
+<script type="text/javascript" src="js\Persona.js"></script>
+<script type="text/javascript" src="js\BD.js"></script>
+
+
+</head>
+
+<!-- Cuerpo --> 
+<body>
+
+<p id="str3">P</p>
+
+<script>
+
+
+const persona1 = new Persona ("Mariano", "Ariel Mattos", "Rest");
+persona1.Correr();
+persona1.Dormir();
+
+
+var npersona1 = persona1.NombrePersona();
+
+document.getElementById("str3").innerHTML = npersona1;
+</script>
+
+<!--  --> 
+
+</body>
+</html>
